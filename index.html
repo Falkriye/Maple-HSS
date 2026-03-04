@@ -900,8 +900,8 @@
               <span style="font-size:0.82rem;"><i class="bi bi-telephone text-primary me-1"></i> (0271) 123-456</span>
               <span style="font-size:0.82rem;"><i class="bi bi-clock text-primary me-1"></i> Sen–Sab, 08.00–17.00</span>
             </div>
-            <a href="https://wa.me/6281234567890?text=Halo+Maple+HSS+Solo" target="_blank" class="btn-enquire d-inline-flex" style="width:auto;padding:9px 20px;">
-              <i class="bi bi-whatsapp"></i> WA Solo
+            <a href="https://wa.me/6281227079070?text=Halo+Maple+HSS" target="_blank" class="btn-enquire d-inline-flex" style="width:auto;padding:9px 20px;">
+              <i class="bi bi-whatsapp"></i> Hubungi WhatsApp
             </a>
           </div>
         </div>
@@ -923,9 +923,6 @@
               <span style="font-size:0.82rem;"><i class="bi bi-telephone text-primary me-1"></i> (024) 789-012</span>
               <span style="font-size:0.82rem;"><i class="bi bi-clock text-primary me-1"></i> Sen–Sab, 08.00–17.00</span>
             </div>
-            <a href="https://wa.me/6289876543210?text=Halo+Maple+HSS+Semarang" target="_blank" class="btn-enquire d-inline-flex" style="width:auto;padding:9px 20px;">
-              <i class="bi bi-whatsapp"></i> WA Semarang
-            </a>
           </div>
         </div>
       </div>
@@ -987,8 +984,7 @@
         <h6>Hubungi Kami</h6>
         <p style="font-size:0.83rem;"><i class="bi bi-geo-alt me-2" style="color:var(--accent)"></i>Jl. Slamet Riyadi 123, Solo</p>
         <p style="font-size:0.83rem;"><i class="bi bi-geo-alt me-2" style="color:var(--accent)"></i>Jl. Pemuda 45, Semarang</p>
-        <p style="font-size:0.83rem;"><i class="bi bi-whatsapp me-2" style="color:var(--wa-green)"></i>+62 812-3456-7890 (Solo)</p>
-        <p style="font-size:0.83rem;"><i class="bi bi-whatsapp me-2" style="color:var(--wa-green)"></i>+62 898-7654-3210 (Semarang)</p>
+        <p style="font-size:0.83rem;"><i class="bi bi-whatsapp me-2" style="color:var(--wa-green)"></i>0812 2709 070</p>
         <p style="font-size:0.83rem;"><i class="bi bi-envelope me-2" style="color:var(--accent)"></i>info@maplehss.com</p>
         <p style="font-size:0.83rem;"><i class="bi bi-clock me-2" style="color:var(--accent)"></i>Senin–Sabtu, 08.00–17.00 WIB</p>
       </div>
@@ -1003,20 +999,12 @@
 
 <!-- ===== FLOATING WA BUTTON ===== -->
 <div class="wa-float">
-  <div class="wa-dropdown" id="waDropdown">
-    <p>Pilih Kota:</p>
-    <a class="wa-option" href="https://wa.me/6281234567890?text=Halo+Maple+HSS+Solo%2C+saya+ingin+informasi+produk." target="_blank">
+  <div class="wa-dropdown open" id="waDropdown">
+    <a class="wa-option" href="https://wa.me/6281227079070?text=Halo+Maple+HSS%2C+saya+ingin+informasi+produk." target="_blank">
       <i class="bi bi-whatsapp"></i>
       <div>
-        <div style="font-weight:600;font-size:0.88rem;">WhatsApp Solo</div>
-        <small>+62 812-3456-7890</small>
-      </div>
-    </a>
-    <a class="wa-option" href="https://wa.me/6289876543210?text=Halo+Maple+HSS+Semarang%2C+saya+ingin+informasi+produk." target="_blank">
-      <i class="bi bi-whatsapp"></i>
-      <div>
-        <div style="font-weight:600;font-size:0.88rem;">WhatsApp Semarang</div>
-        <small>+62 898-7654-3210</small>
+        <div style="font-weight:600;font-size:0.88rem;">WhatsApp</div>
+        <small>0812 2709 070</small>
       </div>
     </a>
   </div>
@@ -1129,7 +1117,7 @@ function renderProducts() {
 
 function buildWaLink(productName) {
   const msg = encodeURIComponent(`Halo Maple HSS, saya ingin info produk ${productName}.`);
-  return `https://wa.me/6281234567890?text=${msg}`;
+  return `https://wa.me/6281227079070?text=${msg}`;
 }
 
 function setFilter(cat, el) {
