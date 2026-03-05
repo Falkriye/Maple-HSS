@@ -1015,15 +1015,25 @@
 <script>
 // ===== PRODUCT DATA (CMS-READY) =====
 const products = [
-  // SEE-U & PLENTY (Tissue dari Suparma)
-  { id: 1, name: 'See-U Pro 100s Facial', category: 'See-U & Plenty', spec: '2 Ply, White, FSC Certified', packaging: 'Pack 100\'s', icon: '🧻' },
-  { id: 2, name: 'See-U Pro Dinner Serviettes', category: 'See-U & Plenty', spec: 'Border Embossed, 50\'S', packaging: 'Pack 50\'s', icon: '🧻' },
-  { id: 3, name: 'See-U Pro Luncheon Napkin', category: 'See-U & Plenty', spec: 'Full Emboss, 30cm, 50\'S', packaging: 'Pack 50\'s', icon: '🧻' },
-  { id: 4, name: 'See-U Pro Bathroom Tissue', category: 'See-U & Plenty', spec: '250 Sheet, 10IN1', packaging: 'Pack 10 roll', icon: '🧻' },
-  { id: 5, name: 'See-U Pro Facial Long Pack', category: 'See-U & Plenty', spec: '50\'S, White, FSC Mix 85', packaging: 'Pack 50\'s', icon: '🧻' },
-  { id: 6, name: 'Plenty Pro Bathroom Single', category: 'See-U & Plenty', spec: '340\'S, Eco-Paperwrap', packaging: 'Pack 340\'S', icon: '🧻' },
-  { id: 7, name: 'Plenty Pro Cocktail Napkin', category: 'See-U & Plenty', spec: 'Border Embossed, 100\'S', packaging: 'Pack 100\'S', icon: '🧻' },
-  { id: 8, name: 'Plenty Pro Dinner Serviettes', category: 'See-U & Plenty', spec: 'Border Embossed, 50\'S', packaging: 'Pack 50\'S', icon: '🧻' },
+  // SEE-U PRODUCTS
+  { id: 1, name: 'See-U Pop-Up', category: 'See-U & Plenty', spec: 'Pop-Up Tissue, Blue/Red/Elephant', packaging: 'Pack', img: 'assets/suparama/01. See-U Pro 100`S BR FSC RE 100_ (SUCN-005NN).png' },
+  { id: 2, name: 'See-U Bathroom Roll 250', category: 'See-U & Plenty', spec: '250 Sheets, 10IN1', packaging: 'Pack 10 roll', img: 'assets/suparama/12. See-U Pro Bathroom Sustainable Series Single 250`S 10IN1 WH FSC MIX 85_ (SUBT-049NN).png' },
+  { id: 3, name: 'See-U Bathroom Roll 215', category: 'See-U & Plenty', spec: '215 Sheets, 10IN1', packaging: 'Pack 10 roll', img: 'assets/suparama/See-U BT NE 10in1 215SH (SUBT-048).png' },
+  { id: 4, name: 'See-U Coreless Roll', category: 'See-U & Plenty', spec: 'Coreless, 10IN1', packaging: 'Pack 10 roll', img: 'assets/suparama/See-U BT DME Coreless 10in1 (SUBT-057).png' },
+  { id: 5, name: 'See-U Jumbo Roll Tissue', category: 'See-U & Plenty', spec: 'Jumbo Roll, 10IN1', packaging: 'Pack 10 roll', img: 'assets/suparama/See-U BT Classic 10in1 (SUBT-503).png' },
+  { id: 6, name: 'See-U Hand Towel Econo', category: 'See-U & Plenty', spec: 'Econo Series, Brown/Green/Red', packaging: 'Pack', img: 'assets/suparama/See-U HTM Econo(SUHT-019).png' },
+  { id: 7, name: 'See-U Hand Towel Sleeve', category: 'See-U & Plenty', spec: 'Sleeve, Green/Blue', packaging: 'Pack', img: 'assets/suparama/See-U FT SP Classic Kiloan (SUFT-503).png' },
+  { id: 8, name: 'See-U Hand Towel Interfold', category: 'See-U & Plenty', spec: 'Interfold, Green Value', packaging: 'Pack', img: 'assets/suparama/See-U FT Green Value SP Kiloan (SUFT-013).png' },
+  { id: 9, name: 'See-U Facial Kiloan', category: 'See-U & Plenty', spec: 'Facial Tissue Kiloan', packaging: 'Pack 1 kg', img: 'assets/suparama/See-U FT SP Classic Kiloan (SUFT-503).png' },
+  { id: 10, name: 'See-U Facial Classic', category: 'See-U & Plenty', spec: 'Classic Series, 160/250/700 Sheets', packaging: 'Pack', img: 'assets/suparama/07. See-U Pro Facial Long Pack 50`S WH FSC MIX 85_ (SUFT-016NN).png' },
+  { id: 11, name: 'See-U Kitchen Towel', category: 'See-U & Plenty', spec: 'Kitchen Towel, 8in1', packaging: 'Pack 8 roll', img: 'assets/suparama/See-U MT 8in1 (SUFT-011).png' },
+
+  // PLENTY PRODUCTS
+  { id: 12, name: 'Plenty Dinner Napkin', category: 'See-U & Plenty', spec: 'Dinner Napkin, Blue/Green', packaging: "Pack 50's", img: 'assets/suparama/8. Plenty Pro Dinner Serviettes Border Embossed 50_S WH FSC MIX 70_ (PLDN-001NN).png' },
+  { id: 13, name: 'Plenty Cocktail Napkin', category: 'See-U & Plenty', spec: 'Cocktail Napkin, Blue/Green/Brown', packaging: "Pack 100'S", img: 'assets/suparama/7. Plenty Pro Cocktail Napkin Border Embossed 100`S WH FSC MIX 70_ (PLCN-001NN).png' },
+  { id: 14, name: 'Plenty Luncheon Napkin', category: 'See-U & Plenty', spec: 'Luncheon Napkin, Blue/Green', packaging: "Pack 50's", img: 'assets/suparama/03. See-U Pro Luncheon Napkin Full Emboss 50`S WH FSC MIX 70_ (SULN-003NN).png' },
+  { id: 15, name: 'Plenty Kitchen Towel', category: 'See-U & Plenty', spec: 'Kitchen Towel, 340\'S', packaging: "Pack 340'S", img: 'assets/suparama/4. Plenty Pro Bathroom Single 340`S Eco-Paperwrap WH FSC MIX 70_ (PLBT-020NN).png' },
+  { id: 16, name: 'Plenty Bathroom Roll', category: 'See-U & Plenty', spec: 'Bathroom Roll, 200\'S', packaging: "Pack 200'S", img: 'assets/suparama/5. Plenty Pro Bathroom Single 200`S WH FSC MIX 70_ (PLBT-010NN).png' },
 
   // KOBE TEPUNG BUMBU
   { id: 9, name: 'KOBE Tepung Bumbu Putih', category: 'KOBE Tepung Bumbu', spec: '1 kg, Formula A', packaging: 'Pack 1 kg', icon: '🍗' },
@@ -1118,7 +1128,7 @@ function renderProducts() {
       <div class="product-card">
         <div class="product-img">
           <span class="product-cat-tag">${p.category.split(' ')[0]}</span>
-          <span style="font-size:3.2rem;">${p.icon}</span>
+          ${p.img ? `<img src="${p.img}" alt="${p.name}" style="width:100%;height:100%;object-fit:contain;">` : `<span style="font-size:3.2rem;">${p.icon}</span>`}
         </div>
         <div class="product-body">
           <div class="product-name">${p.name}</div>
